@@ -1,0 +1,10 @@
+
+fastapi
+uvicorn
+pandas
+faiss-cpu
+numpy
+openai>=1.12.0
+python-dotenv
+requests
+langchain_openai
