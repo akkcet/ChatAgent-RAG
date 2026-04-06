@@ -19,7 +19,7 @@ A fully‑featured **AI recipe assistant** powered by:
 retail-chatbot-rag/
 │
 ├── backend/
-│   ├── streamlit_app.py        # ✅ Streamlit UI entry point
+│   ├── chat_ui.py              #  Streamlit UI entry point
 │   ├── chat_agent.py           # Multi-tool AI agent
 │   ├── rag_index.py            # FAISS RAG loader
 │   ├── build_index.py          # Build FAISS + embeddings
@@ -29,8 +29,8 @@ retail-chatbot-rag/
 │   ├── tools.py                # Tool wrapper
 │   └── data/
 │       ├── cuisines.csv        # Source data
-│       ├── embeddings.npy      # ✅ Built via build_index.py
-│       ├── faiss.index         # ✅ FAISS index
+│       ├── embeddings.npy      # Built via build_index.py
+│       ├── faiss.index         # FAISS index
 │       └── orders.json         # Auto‑generated order history
 │
 ├── requirements.txt
