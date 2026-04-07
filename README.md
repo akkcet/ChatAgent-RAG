@@ -22,7 +22,7 @@ retail-chatbot-rag/
 │   ├── chat_ui.py              #  Streamlit UI entry point
 │   ├── chat_agent.py           # Multi-tool AI agent
 │   ├── rag_index.py            # FAISS RAG loader
-│   ├── build_index.py          # Build FAISS + embeddings
+│   ├── index_max.py            # Build FAISS + embeddings (better performance)
 │   ├── product_engine.py       # Dish search
 │   ├── recommender.py          # Simple dish recommender 
 │   ├── order_manager.py        # Order storage
