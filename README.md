@@ -1,4 +1,4 @@
-# 🍽️ Smart Recipe Assistant (RAG + Azure OpenAI + Streamlit)
+#  Smart Recipe Assistant (RAG + Azure OpenAI + Streamlit)
 
 A fully‑featured **AI recipe assistant** powered by:
 
@@ -13,7 +13,7 @@ A fully‑featured **AI recipe assistant** powered by:
 
 ---
 
-## 📁 **Project Structure**
+##  **Project Structure**
 
 ```
 retail-chatbot-rag/
@@ -24,7 +24,7 @@ retail-chatbot-rag/
 │   ├── rag_index.py            # FAISS RAG loader
 │   ├── build_index.py          # Build FAISS + embeddings
 │   ├── product_engine.py       # Dish search
-│   ├── recommender.py          # Simple recommender
+│   ├── recommender.py          # Simple dish recommender 
 │   ├── order_manager.py        # Order storage
 │   ├── tools.py                # Tool wrapper
 │   └── data/
@@ -39,7 +39,7 @@ retail-chatbot-rag/
 
 ---
 
-## 🚀 Features
+##  Features
 
 ### ✅ **1. RAG‑powered recipe search**
 Uses FAISS + Azure embeddings to search recipes semantically.
@@ -80,7 +80,7 @@ When user returns and says **hi/hello/hey**, bot shows:
 
 ---
 
-## ⚙️ Setup Instructions (Local Development)
+##  Setup Instructions (Local Development)
 
 ### ✅ 1. Create a virtual environment
 ```bash
@@ -123,7 +123,7 @@ http://localhost:8501
 
 ---
 
-## ☁️ Deploying to Streamlit Cloud
+##  Deploying to Streamlit Cloud
 
 ### ✅ 1. Push your repo to GitHub
 Required files:
@@ -134,7 +134,7 @@ Required files:
 Do **NOT** push `.env`.
 
 ### ✅ 2. Go to Streamlit Cloud
-👉 https://share.streamlit.io
+ https://share.streamlit.io
 
 ### ✅ 3. New App → Select your GitHub repo
 
@@ -155,11 +155,11 @@ AZURE_OPENAI_CHAT_DEPLOYMENT="gpt4o"
 AZURE_OPENAI_EMBED_DEPLOYMENT="myembed"
 ```
 
-### ✅ 6. Deploy 🎉
+### ✅ 6. Deploy 
 
 ---
 
-## 🧪 Testing the Agent
+##  Testing the Agent
 Try queries like:
 ```
 What are the ingredients for Goan Chana Ros?
@@ -178,7 +178,7 @@ Confirm:
 
 ---
 
-## 🛠️ Troubleshooting
+##  Troubleshooting
 
 ### ✅ “orders.json not found”
 It will be auto‑created.
@@ -195,17 +195,7 @@ Deployment name mismatch — verify:
 - `AZURE_OPENAI_EMBED_DEPLOYMENT`
 
 ### ✅ “I don’t know based on the available data”
-Grounding worked but chunk didn’t contain answer.
-
----
-
-## 🤝 Contributing
-Feel free to:
-- Add new recipes  
-- Improve chunking  
-- Add new tools  
-- Enhance shopping cart  
-- Deploy using Docker or Azure App Service  
+Grounding basically worked but chunk didn’t contain answer.
 
 ---
 
